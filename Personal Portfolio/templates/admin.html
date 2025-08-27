@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Add New Project</h2>
+<form method="POST">
+  <div class="mb-3">
+    <input type="text" name="title" class="form-control" placeholder="Project Title" required>
+  </div>
+  <div class="mb-3">
+    <textarea name="description" class="form-control" placeholder="Project Description" required></textarea>
+  </div>
+  <div class="mb-3">
+    <input type="url" name="link" class="form-control" placeholder="Project Link (GitHub/Website)">
+  </div>
+  <button type="submit" class="btn btn-success">Save Project</button>
+</form>
+{% endblock %}

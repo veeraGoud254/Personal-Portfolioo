@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="text-center my-5">
+    <!-- Animated Heading -->
+    <h1 class="animate__animated animate__fadeInDown">Hi, I'm <span style="color:#0d6efd;">VeeraGoud 👋</span></h1>
+    
+    <!-- Animated Subtext -->
+    <p class="animate__animated animate__fadeInUp animate__delay-1s">
+      AI/ML Engineer | Python Developer | Full Stack Learner
+    </p>
+
+    <!-- Animated Button -->
+    <a href="/projects" class="btn btn-primary btn-lg animate__animated animate__zoomIn animate__delay-2s">
+      View My Projects
+    </a>
+  </div>
+
+  <!-- Skills Section with Scroll Animation -->
+  <div class="row text-center mt-5">
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+      <h3>🚀 Python</h3>
+      <p>Building powerful backend applications</p>
+    </div>
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+      <h3>🤖 AI/ML</h3>
+      <p>Creating smart AI-powered systems</p>
+    </div>
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+      <h3>🌐 Full Stack</h3>
+      <p>End-to-end web development</p>
+    </div>
+  </div>
+{% endblock %}
